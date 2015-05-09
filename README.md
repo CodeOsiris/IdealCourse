@@ -21,14 +21,14 @@ An interactive command line version of program is provided as **interactive.py**
 
 An empty query terminates the loop. Strongly recommend to use this code for testing, since deploying a server version could be troublesome. Extract **source_code.tar.gz** under *YOUR_DIR*, then run following command in *YOUR_DIR* for interactive test:
 
-```python interactive.py
+```python interactive.py```
 
 How to Deploy
 -------------
 Extract **source_code.tar.gz** into *$HOME/public_html* (backup everything before extracting).
 
 Run
-```python server.py
+```python server.py```
 
 on *crunchy6*.
 
