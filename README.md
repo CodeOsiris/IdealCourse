@@ -1,6 +1,14 @@
 Ideal Course
 ============
 
+Objective
+---------
+Given a query, return top-20 most relevant courses in NYU to the query.
+
+Demo
+----
+[http://cs.nyu.edu/~xy644/index.html](http://cs.nyu.edu/~xy644/index.html)
+
 Prerequisite
 ------------
 Python 2.6, NLTK 3.0.2.
@@ -34,7 +42,3 @@ Run
 on *Crunchy6*.
 
 Access [http://cs.nyu.edu/~NET_ID](#) for further test. Average response time is 10 to 15 seconds.
-
-Demo
-----
-[http://cs.nyu.edu/~xy644/index.html](http://cs.nyu.edu/~xy644/index.html)
