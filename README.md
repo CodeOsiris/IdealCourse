@@ -33,3 +33,7 @@ Run
 on *crunchy6*.
 
 Access [http://cs.nyu.edu/~NET\_ID](http://cs.nyu.edu/~NET_ID) for further test. Average response time is 10 to 15 seconds.
+
+Demo
+----
+[http://cs.nyu.edu/~xy644/index.html](http://cs.nyu.edu/~xy644/index.html)
