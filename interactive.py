@@ -187,6 +187,9 @@ while True:
         for i in range(len(sorted_list)):
             score_exact = score(query, info[i], coeff, norm)
             score_synset = score(synsets, info[i], coeff, norm)
+            for norm_category in norm:
+                if norm[norm_category] == 0:
+                    norm[norm_category] = 1
             sorted_list[i] = (sorted_list[i][0], sorted_list[i][1], sorted_list[i][2], score_exact[0] + syn_coeff * score_synset[0], score_exact[1] + syn_coeff * score_synset[1], score_exact[2] + syn_coeff * score_synset[2], score_exact[3] + syn_coeff * score_synset[3])
         top_list = sorted(sorted_list, key = lambda item : weighted_score(itemgetter(-4, -3, -2, -1)(item), norm), reverse = True)[ : 20]
         for i in range(len(top_list)):

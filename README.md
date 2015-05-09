@@ -31,7 +31,7 @@ Run
 
 ```python server.py```
 
-on *crunchy6*.
+on *Crunchy6*.
 
 Access [http://cs.nyu.edu/~NET_ID](#) for further test. Average response time is 10 to 15 seconds.
 
