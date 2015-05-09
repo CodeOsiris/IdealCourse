@@ -9,8 +9,8 @@ Demo
 ----
 [http://cs.nyu.edu/~xy644/index.html](http://cs.nyu.edu/~xy644/index.html)
 
-Prerequisite
-------------
+Prerequisites
+-------------
 Python 2.6, NLTK 3.0.2.
 
 Files
