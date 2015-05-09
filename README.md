@@ -28,11 +28,12 @@ How to Deploy
 Extract **source_code.tar.gz** into *$HOME/public_html* (backup everything before extracting).
 
 Run
+
 ```python server.py```
 
 on *crunchy6*.
 
-Access [http://cs.nyu.edu/~NET\_ID](http://cs.nyu.edu/~NET_ID) for further test. Average response time is 10 to 15 seconds.
+Access [http://cs.nyu.edu/~NET\_ID] for further test. Average response time is 10 to 15 seconds.
 
 Demo
 ----
