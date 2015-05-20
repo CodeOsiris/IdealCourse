@@ -19,26 +19,32 @@ Files
 
 **interactive.py**: An interactive version of the project which can be run in local terminal. Recommended for testing, for deploying server version would require more steps.
 
-**source_code.tar.gz**: Source code and relevant data to deploy and run project.
+**preprocess.py**: Preprocess all supplementary and short description documents into a form of bag of words.
 
-**scrapy.tar.gz**: Source code for scraping raw data from web. THE CODE CAN BE RUN ON CIMS SERVER, BUT IS NOT RECOMMENDED, STORAGE ON CIMS SERVER IS NOT LARGE ENOUGH TO STORE ALL DATA AND IT TAKES MORE THAN ONE WEEK TO FINISH.
+**stopwords.pickle**: Stopwords used in the project.
+
+**idftable\_desc.pickle**: For every word, the number of supplementary documents that contain this word is stored.
+
+**idftable.pickle**: For every word, the number of short description documents that contain this word is stored.
+
+**extend.json**: All information for every course including bag of words version of description and supplementary documents are stored. Duplicate courses (differ only on course number) are also removed.
+
+**IdealCourseData**: All data needed for preprocessing.
+
+Get Repository
+--------------
+Without raw data: ```git clone https://github.com/19thhell/IdealCourse```
+
+With raw data: ```git clone https://github.com/19thhell/IdealCourse --recursive```
 
 How to Test
 -----------
 An interactive command line version of program is provided as **interactive.py**, may take a few minutes to load data set when running on CIMS servers. Average response time is within 10 seconds.
 
-An empty query terminates the loop. Strongly recommend to use this code for testing, since deploying a server version could be troublesome. Extract **source_code.tar.gz** under *YOUR_DIR*, then run following command in *YOUR_DIR* for interactive test:
+Run following command in *YOUR_DIR* for interactive test:
 
 ```python interactive.py```
 
-How to Deploy
--------------
-Extract **source_code.tar.gz** into *$HOME/public_html* (backup everything before extracting).
-
-Run
-
-```python server.py```
-
-on *Crunchy6*.
+An empty query terminates the loop.
 
 Access [http://cs.nyu.edu/~NET_ID](#) for further test. Average response time is 10 to 15 seconds.
